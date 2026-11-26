@@ -84,9 +84,8 @@ process real payments or food orders.
 This project was developed collaboratively as part of the Web Programming course at Seoul National University of Science and Technology (SeoulTech).
 
 - Gizem Su Kaplan
-- [Team Member Name]
-- [Team Member Name]
-
+- Oskar
+- Munkhjin
 ## Project Type
 
 University Group Project – Web Programming, Fall 2026.
