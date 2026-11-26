@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Food4U - Online Food Ordering</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Food4U</h1>
+        <p>Online Food Ordering</p>
+
+        <nav>
+            <ul>
+                <li><a href="#welcome">Welcome</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="welcome">
+        <h2>Welcome to Food4U!</h2>
+
+        <p>
+            Food4U, your favorite online food
+            ordering website. Discover delicious meals by browsing
+            our menu and order your favorite food from the
+            comfort of your home.
+        </p>
+
+        <p>
+            Fresh ingredients, great taste, and fast delivery! All you could wish for from a delivery service!
+        </p>
+
+        <a href="#menu">Explore Our Menu</a>
+    </section>
+
+
+    
+<section id="menu">
+    <h2>Our Featured Menu</h2>
+
+    <p>Check out some of our most popular dishes:</p>
+
+    <article class="food-item">
+        <img src="images/cheeseburger.jpg" alt="Classic Cheeseburger">
+
+        <h3>Classic Cheeseburger</h3>
+
+        <p>
+            A juicy beef cheeseburger! How you know and love it! 
+        </p>
+
+        <p>Price: ₩9000</p>
+
+        <a href="#contact">Order Now</a>
+        <button type="button" class="details-button">View Details</button>
+
+        <div class="food-details" hidden>
+            <p>Ingredients: Beef, cheddar cheese, lettuce, tomato, burger bun and homemade sauce.</p>
+            <p>Preparation time: 15 minutes</p>
+        </div>
+        <p></p>
+    </article>
+
+
+    <article class="food-item">
+        <img src="images/pizza.jpg" alt="Margherita Pizza">
+
+        <h3>Margherita Pizza</h3>
+
+        <p>
+            Traditional Italian Margherita Pizza! Can't go wrong with that! 
+        </p>
+
+        <p>Price: ₩12000</p>
+
+        <a href="#contact">Order Now</a>
+        <button type="button" class="details-button">View Details</button>
+
+        <div class="food-details" hidden>
+            <p>Ingredients: Pizza dough, tomato sauce, mozzarella cheese and fresh basil.</p>
+            <p>Preparation time: 20 minutes</p>
+        </div>
+        <p></p>
+    </article>
+
+
+    <article class="food-item">
+        <img src="images/pasta.jpg" alt="Creamy Pasta">
+
+        <h3>Creamy Pasta</h3>
+
+        <p>
+            Delicious Creamy Pasta! Our own twist on a staple Dish! 
+        </p>
+
+        <p>Price: ₩10000</p>
+
+        <a href="#contact">Order Now</a>
+        <button type="button" class="details-button">View Details</button>
+
+        <div class="food-details" hidden>
+            <p>Ingredients: Pasta, cream, parmesan cheese, garlic and fresh herbs.</p>
+            <p>Preparation time: 15 minutes</p>
+        </div>
+        <p></p>
+    </article>
+
+
+    <article class="food-item">
+        <img src="images/salad.jpg" alt="Fresh Garden Salad">
+
+        <h3>Fresh Garden Salad</h3>
+
+        <p>
+            A healthy Salad with a classic olive oil dressing!
+        </p>
+
+        <p>Price: ₩8000</p>
+
+        <a href="#contact">Order Now</a>
+        <button type="button" class="details-button">View Details</button>
+
+        <div class="food-details" hidden>
+            <p>Ingredients: Lettuce, tomatoes, cucumbers, carrots and olive oil dressing.</p>
+            <p>Preparation time: 5 minutes</p>
+        </div>
+        <p></p>
+    </article>
+
+
+    <article class="food-item">
+        <img src="images/lemonade.jpg" alt="Fresh Lemonade">
+
+        <h3>Fresh Lemonade</h3>
+
+        <p>
+            Refreshing homemade lemonade! Fits great with everything!
+        </p>
+
+        <p>Price: ₩3500</p>
+
+        <a href="#contact">Order Now</a>
+        <button type="button" class="details-button">View Details</button>
+
+        <div class="food-details" hidden>
+            <p>Ingredients: Fresh lemons, water, sugar and mint.</p>
+            <p>Preparation time: 3 minutes</p>
+        </div>
+        <p></p>
+    </article>
+
+</section>
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <p>
+            Have a question or want to place an order?
+            Send us a message!
+        </p>
+
+        <form id="contact-form">
+
+            <label for="name">Name:</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+            >
+            <p></p>
+
+            <label for="email">Email:</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+            <p></p>
+
+            <label for="message">Message:</label>
+            <textarea
+                id="message"
+                name="message"
+                placeholder="Write your message here..."
+                rows="5"
+                required
+            ></textarea>
+
+            <p></p>
+            <button type="submit">Send Message</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>2026 Food4U. All rights reserved.</p>
+        <p>Fresh Food | Fast Delivery | Great Taste</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
