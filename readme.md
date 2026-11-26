@@ -90,8 +90,6 @@ This project was developed collaboratively as part of the Web Programming course
 
 University Group Project – Web Programming, Fall 2026.
 
-Computer Science Student
-
 Seoul National University of Science and Technology
 (SeoulTech), South Korea
 
